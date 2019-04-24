@@ -23,7 +23,7 @@ use Ramsey\Uuid\Uuid;
  * This is a cross section of what is probably stored about an author. This entity is a top level entity that
  * holds the keys to the other entities in this example.
  *
- * @author jleespooks <jamparan3@cnm.edu>
+ * @author jleespooks<jamparan3@cnm.edu>
  * @version 1.0.0
  **/
 class Author {
