@@ -6,7 +6,7 @@ namespace jamparan3\Oop;
  * This trait will inject a private method to validate a mySQL style date (e.g., 2016-01-15 15:32:48.643216). It will
  * convert a string representation to a DateTime object or throw an exception.
  *
- * @author jamparan3<jamparan3@cnm.edu>
+ * @author jamparan3 <jamparan3@cnm.edu>
  * @version 1.0.1
  **/
 trait ValidateDate {
@@ -19,8 +19,8 @@ trait ValidateDate {
 	 * @return \DateTime DateTime object containing the validated date
 	 * @see http://php.net/manual/en/class.datetime.php PHP's DateTime class
 	 * @throws \InvalidArgumentException if the date is in an invalid format
-* @throws \RangeException if the date is not a Gregorian date
-* @throws \TypeError when type hints fail
+	* @throws \RangeException if the date is not a Gregorian date
+	* @throws \TypeError when type hints fail
 **/
 	private static function validateDate($newDate) : \DateTime {
 	// base case: if the date is a DateTime object, there's no work to be done
