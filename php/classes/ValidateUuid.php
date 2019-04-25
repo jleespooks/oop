@@ -11,10 +11,10 @@ use Ramsey\Uuid\Uuid;
  * 2. binary string (16 bytes)
  * 3. Ramsey\Uuid\Uuid object
  *
- * @author jamparan3<jamparan3@cnm.edu>
+ * @author jamparan3 <jamparan3@cnm.edu>
  * @package jamparan3\Oop
  **/
-trait ValidateUuid {
+trait ValidateUuid{
 	/**
 	 * validates a uuid irrespective of format
 	 *
