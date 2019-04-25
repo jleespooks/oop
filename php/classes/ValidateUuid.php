@@ -1,6 +1,6 @@
 <?php
-namespace jleespooks\oop;
-require_once(dirname(__DIR__, 2) . "/composer.json/autoload.php");
+namespace jamparan3\Oop;
+require_once(dirname(__DIR__) . "/vendor/autoload.php");
 use Ramsey\Uuid\Uuid;
 /**
  * Trait to validate a uuid
@@ -11,8 +11,8 @@ use Ramsey\Uuid\Uuid;
  * 2. binary string (16 bytes)
  * 3. Ramsey\Uuid\Uuid object
  *
- * @author jleespooks <dmcdonald21@cnm.edu>
- * @package jamparan3\oop
+ * @author jamparan3<jamparan3@cnm.edu>
+ * @package jamparan3\Oop
  **/
 trait ValidateUuid {
 	/**
