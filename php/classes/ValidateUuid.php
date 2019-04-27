@@ -13,6 +13,7 @@ use Ramsey\Uuid\Uuid;
  *
  * @author jamparan3 <jamparan3@cnm.edu>
  * @package jamparan3\Oop
+ *
  **/
 trait ValidateUuid {
 	/**
