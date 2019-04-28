@@ -11,8 +11,8 @@ use Ramsey\Uuid\Uuid;
  * 2. binary string (16 bytes)
  * 3. Ramsey\Uuid\Uuid object
  *
- * @author Trystan Gray <tgray19@cnm.edu>
- * @package tgray19/ ObjectOriented
+ * @author jamparan3 <jamparan3@cnm.edu>
+ * @package jamparan3/ Oop
  **/
 trait ValidateUuid {
 	/**
