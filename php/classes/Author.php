@@ -2,7 +2,6 @@
 namespace jamparan3\Oop;
 require_once(dirname(__DIR__) . "/vendor/autoload.php");
 require_once("autoload.php");
-require_once("author.php");
 use Ramsey\Uuid\Uuid;
 /**
  * Cross Section of an Author
